@@ -7,7 +7,8 @@ import com.learn.githubuserapp.R
 import com.learn.githubuserapp.databinding.ActivitySettingBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class SettingActivity : AppCompatActivity() {
+class
+SettingActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySettingBinding
     private val viewModel: SettingViewModel by viewModel()
     override fun onCreate(savedInstanceState: Bundle?) {
